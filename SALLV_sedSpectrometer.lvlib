@@ -25,8 +25,11 @@
 		<Item Name="logevent_AppliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_AppliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_DetailedState.ctl" Type="VI" URL="../DataTypes/logevent_DetailedState.ctl"/>
 		<Item Name="logevent_ErrorCode.ctl" Type="VI" URL="../DataTypes/logevent_ErrorCode.ctl"/>
+		<Item Name="logevent_InternalCommand.ctl" Type="VI" URL="../DataTypes/logevent_InternalCommand.ctl"/>
 		<Item Name="logevent_LargeFileObjectAvailable.ctl" Type="VI" URL="../DataTypes/logevent_LargeFileObjectAvailable.ctl"/>
+		<Item Name="logevent_LoopTimeOutOfRange.ctl" Type="VI" URL="../DataTypes/logevent_LoopTimeOutOfRange.ctl"/>
 		<Item Name="logevent_MeasuredSpectrum.ctl" Type="VI" URL="../DataTypes/logevent_MeasuredSpectrum.ctl"/>
+		<Item Name="logevent_RejectedCommand.ctl" Type="VI" URL="../DataTypes/logevent_RejectedCommand.ctl"/>
 		<Item Name="logevent_SettingVersions.ctl" Type="VI" URL="../DataTypes/logevent_SettingVersions.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
 		<Item Name="logevent_Timeout.ctl" Type="VI" URL="../DataTypes/logevent_Timeout.ctl"/>
@@ -87,8 +90,11 @@
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_cancelCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_cancelCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_cancelCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_cancelCallback_logEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_cancelCallback_logEvent_Timeout.vi"/>
@@ -96,8 +102,11 @@
 	<Item Name="sedSpectrometer_flushSamplesEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_flushSamplesEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_flushSamplesEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_flushSamplesEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_flushSamplesEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_flushSamplesEvent_Timeout.vi"/>
@@ -105,8 +114,11 @@
 	<Item Name="sedSpectrometer_getEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_getEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_getEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_getEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_getEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_getEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_getEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_getEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_getEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_getEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_getEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_getEvent_Timeout.vi"/>
@@ -141,8 +153,11 @@
 	<Item Name="sedSpectrometer_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_logEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_logEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_logEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_logEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_logEvent_Timeout.vi"/>
@@ -191,8 +206,11 @@
 	<Item Name="sedSpectrometer_registerCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_registerCallback_logEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_registerCallback_logEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_registerCallback_logEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_registerCallback_logEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_registerCallback_logEvent_Timeout.vi"/>
@@ -210,8 +228,11 @@
 	<Item Name="sedSpectrometer_salEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="sedSpectrometer_salEvent_DetailedState.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_DetailedState.vi"/>
 	<Item Name="sedSpectrometer_salEvent_ErrorCode.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_ErrorCode.vi"/>
+	<Item Name="sedSpectrometer_salEvent_InternalCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_InternalCommand.vi"/>
 	<Item Name="sedSpectrometer_salEvent_LargeFileObjectAvailable.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_LargeFileObjectAvailable.vi"/>
+	<Item Name="sedSpectrometer_salEvent_LoopTimeOutOfRange.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_LoopTimeOutOfRange.vi"/>
 	<Item Name="sedSpectrometer_salEvent_MeasuredSpectrum.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_MeasuredSpectrum.vi"/>
+	<Item Name="sedSpectrometer_salEvent_RejectedCommand.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_RejectedCommand.vi"/>
 	<Item Name="sedSpectrometer_salEvent_SettingVersions.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_SettingVersions.vi"/>
 	<Item Name="sedSpectrometer_salEvent_SummaryState.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_SummaryState.vi"/>
 	<Item Name="sedSpectrometer_salEvent_Timeout.vi" Type="VI" URL="../VIs/sedSpectrometer_salEvent_Timeout.vi"/>
