@@ -6,7 +6,6 @@
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name=".ctl" Type="VI" URL="../DataTypes/.ctl"/>
 		<Item Name="DetailedState.ctl" Type="VI" URL="../DataTypes/DetailedState.ctl"/>
-		<Item Name="SummaryState.ctl" Type="VI" URL="../DataTypes/SummaryState.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
 		<Item Name="command_abort.ctl" Type="VI" URL="../DataTypes/command_abort.ctl"/>
@@ -20,6 +19,7 @@
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
+		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
 		<Item Name="logevent_errorCode.ctl" Type="VI" URL="../DataTypes/logevent_errorCode.ctl"/>
 		<Item Name="logevent_heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_heartbeat.ctl"/>
 		<Item Name="logevent_internalCommand.ctl" Type="VI" URL="../DataTypes/logevent_internalCommand.ctl"/>
@@ -76,6 +76,7 @@
 	<Item Name="FiberSpectrograph_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_command_startackcmd.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_internalCommand.vi"/>
@@ -91,6 +92,7 @@
 	<Item Name="FiberSpectrograph_cancelCallback_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_checkCallbacks.vi" Type="VI" URL="../VIs/FiberSpectrograph_checkCallbacks.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_internalCommand.vi"/>
@@ -103,6 +105,7 @@
 	<Item Name="FiberSpectrograph_flushSamplesEvent_timeout.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_timeout.vi"/>
 	<Item Name="FiberSpectrograph_getCurrentTime.vi" Type="VI" URL="../VIs/FiberSpectrograph_getCurrentTime.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_getEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_internalCommand.vi"/>
@@ -138,6 +141,7 @@
 	<Item Name="FiberSpectrograph_issueCommand_standby.vi" Type="VI" URL="../VIs/FiberSpectrograph_issueCommand_standby.vi"/>
 	<Item Name="FiberSpectrograph_issueCommand_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_issueCommand_start.vi"/>
 	<Item Name="FiberSpectrograph_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_logEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_logEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_logEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_logEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_logEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_logEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_logEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_logEvent_internalCommand.vi"/>
@@ -182,6 +186,7 @@
 	<Item Name="FiberSpectrograph_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_startackcmd.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_internalCommand.vi"/>
@@ -205,6 +210,7 @@
 	<Item Name="FiberSpectrograph_salCommander_standby.vi" Type="VI" URL="../VIs/FiberSpectrograph_salCommander_standby.vi"/>
 	<Item Name="FiberSpectrograph_salCommander_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_salCommander_start.vi"/>
 	<Item Name="FiberSpectrograph_salEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_salEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="FiberSpectrograph_salEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_salEvent_detailedState.vi"/>
 	<Item Name="FiberSpectrograph_salEvent_errorCode.vi" Type="VI" URL="../VIs/FiberSpectrograph_salEvent_errorCode.vi"/>
 	<Item Name="FiberSpectrograph_salEvent_heartbeat.vi" Type="VI" URL="../VIs/FiberSpectrograph_salEvent_heartbeat.vi"/>
 	<Item Name="FiberSpectrograph_salEvent_internalCommand.vi" Type="VI" URL="../VIs/FiberSpectrograph_salEvent_internalCommand.vi"/>
