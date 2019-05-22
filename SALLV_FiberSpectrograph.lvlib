@@ -20,7 +20,6 @@
 		<Item Name="command_setValue.ctl" Type="VI" URL="../DataTypes/command_setValue.ctl"/>
 		<Item Name="command_standby.ctl" Type="VI" URL="../DataTypes/command_standby.ctl"/>
 		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
-		<Item Name="exists.ctl" Type="VI" URL="../DataTypes/exists.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
@@ -37,6 +36,9 @@
 		<Item Name="logevent_simulationMode.ctl" Type="VI" URL="../DataTypes/logevent_simulationMode.ctl"/>
 		<Item Name="logevent_summaryState.ctl" Type="VI" URL="../DataTypes/logevent_summaryState.ctl"/>
 		<Item Name="logevent_timeout.ctl" Type="VI" URL="../DataTypes/logevent_timeout.ctl"/>
+		<Item Name="loopTime_ms.ctl" Type="VI" URL="../DataTypes/loopTime_ms.ctl"/>
+		<Item Name="spectTemperature.ctl" Type="VI" URL="../DataTypes/spectTemperature.ctl"/>
+		<Item Name="timestamp.ctl" Type="VI" URL="../DataTypes/timestamp.ctl"/>
 	</Item>
 	<Item Name="FiberSpectrograph_Connect.vi" Type="VI" URL="../VIs/FiberSpectrograph_Connect.vi"/>
 	<Item Name="FiberSpectrograph_Release.vi" Type="VI" URL="../VIs/FiberSpectrograph_Release.vi"/>
@@ -86,7 +88,6 @@
 	<Item Name="FiberSpectrograph_cancelCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_command_standbyackcmd.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_command_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_command_start.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_command_startackcmd.vi"/>
-	<Item Name="FiberSpectrograph_cancelCallback_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_exists.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_detailedState.vi"/>
@@ -103,6 +104,9 @@
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_simulationMode.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_simulationMode.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_summaryState.vi"/>
 	<Item Name="FiberSpectrograph_cancelCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_logEvent_timeout.vi"/>
+	<Item Name="FiberSpectrograph_cancelCallback_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_cancelCallback_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_cancelCallback_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_cancelCallback_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_checkCallbacks.vi" Type="VI" URL="../VIs/FiberSpectrograph_checkCallbacks.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="FiberSpectrograph_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_flushSamplesEvent_detailedState.vi"/>
@@ -135,7 +139,9 @@
 	<Item Name="FiberSpectrograph_getEvent_simulationMode.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_simulationMode.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_summaryState.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_summaryState.vi"/>
 	<Item Name="FiberSpectrograph_getEvent_timeout.vi" Type="VI" URL="../VIs/FiberSpectrograph_getEvent_timeout.vi"/>
-	<Item Name="FiberSpectrograph_getNextSample_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_getNextSample_exists.vi"/>
+	<Item Name="FiberSpectrograph_getNextSample_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_getNextSample_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_getNextSample_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_getNextSample_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_getNextSample_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_getNextSample_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_getResponse_abort.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_abort.vi"/>
 	<Item Name="FiberSpectrograph_getResponse_captureSpectImage.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_captureSpectImage.vi"/>
 	<Item Name="FiberSpectrograph_getResponse_disable.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_disable.vi"/>
@@ -147,7 +153,9 @@
 	<Item Name="FiberSpectrograph_getResponse_setValue.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_setValue.vi"/>
 	<Item Name="FiberSpectrograph_getResponse_standby.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_standby.vi"/>
 	<Item Name="FiberSpectrograph_getResponse_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_getResponse_start.vi"/>
-	<Item Name="FiberSpectrograph_getSample_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_getSample_exists.vi"/>
+	<Item Name="FiberSpectrograph_getSample_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_getSample_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_getSample_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_getSample_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_getSample_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_getSample_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_issueCommand_abort.vi" Type="VI" URL="../VIs/FiberSpectrograph_issueCommand_abort.vi"/>
 	<Item Name="FiberSpectrograph_issueCommand_captureSpectImage.vi" Type="VI" URL="../VIs/FiberSpectrograph_issueCommand_captureSpectImage.vi"/>
 	<Item Name="FiberSpectrograph_issueCommand_disable.vi" Type="VI" URL="../VIs/FiberSpectrograph_issueCommand_disable.vi"/>
@@ -185,7 +193,9 @@
 	<Item Name="FiberSpectrograph_monitorCommand_setValue.vi" Type="VI" URL="../VIs/FiberSpectrograph_monitorCommand_setValue.vi"/>
 	<Item Name="FiberSpectrograph_monitorCommand_standby.vi" Type="VI" URL="../VIs/FiberSpectrograph_monitorCommand_standby.vi"/>
 	<Item Name="FiberSpectrograph_monitorCommand_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_monitorCommand_start.vi"/>
-	<Item Name="FiberSpectrograph_putSample_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_putSample_exists.vi"/>
+	<Item Name="FiberSpectrograph_putSample_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_putSample_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_putSample_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_putSample_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_putSample_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_putSample_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_ackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_ackcmd.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_command_.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_command_abort.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_abort.vi"/>
@@ -210,7 +220,6 @@
 	<Item Name="FiberSpectrograph_registerCallback_command_standbyackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_standbyackcmd.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_command_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_start.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_command_startackcmd.vi"/>
-	<Item Name="FiberSpectrograph_registerCallback_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_exists.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_detailedState.vi"/>
@@ -227,6 +236,9 @@
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_simulationMode.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_simulationMode.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_summaryState.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_summaryState.vi"/>
 	<Item Name="FiberSpectrograph_registerCallback_logEvent_timeout.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_logEvent_timeout.vi"/>
+	<Item Name="FiberSpectrograph_registerCallback_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_registerCallback_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_registerCallback_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_registerCallback_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_salCommander_abort.vi" Type="VI" URL="../VIs/FiberSpectrograph_salCommander_abort.vi"/>
 	<Item Name="FiberSpectrograph_salCommander_captureSpectImage.vi" Type="VI" URL="../VIs/FiberSpectrograph_salCommander_captureSpectImage.vi"/>
 	<Item Name="FiberSpectrograph_salCommander_disable.vi" Type="VI" URL="../VIs/FiberSpectrograph_salCommander_disable.vi"/>
@@ -264,7 +276,9 @@
 	<Item Name="FiberSpectrograph_salProcessor_setValue.vi" Type="VI" URL="../VIs/FiberSpectrograph_salProcessor_setValue.vi"/>
 	<Item Name="FiberSpectrograph_salProcessor_standby.vi" Type="VI" URL="../VIs/FiberSpectrograph_salProcessor_standby.vi"/>
 	<Item Name="FiberSpectrograph_salProcessor_start.vi" Type="VI" URL="../VIs/FiberSpectrograph_salProcessor_start.vi"/>
-	<Item Name="FiberSpectrograph_salTelemetrySub_exists.vi" Type="VI" URL="../VIs/FiberSpectrograph_salTelemetrySub_exists.vi"/>
+	<Item Name="FiberSpectrograph_salTelemetrySub_loopTimems.vi" Type="VI" URL="../VIs/FiberSpectrograph_salTelemetrySub_loopTimems.vi"/>
+	<Item Name="FiberSpectrograph_salTelemetrySub_spectTemperature.vi" Type="VI" URL="../VIs/FiberSpectrograph_salTelemetrySub_spectTemperature.vi"/>
+	<Item Name="FiberSpectrograph_salTelemetrySub_timestamp.vi" Type="VI" URL="../VIs/FiberSpectrograph_salTelemetrySub_timestamp.vi"/>
 	<Item Name="FiberSpectrograph_waitForCompletion_abort.vi" Type="VI" URL="../VIs/FiberSpectrograph_waitForCompletion_abort.vi"/>
 	<Item Name="FiberSpectrograph_waitForCompletion_captureSpectImage.vi" Type="VI" URL="../VIs/FiberSpectrograph_waitForCompletion_captureSpectImage.vi"/>
 	<Item Name="FiberSpectrograph_waitForCompletion_disable.vi" Type="VI" URL="../VIs/FiberSpectrograph_waitForCompletion_disable.vi"/>
